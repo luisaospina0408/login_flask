@@ -1,0 +1,24 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Variables de entorno y secretos
+.env
+
+# Base de datos local
+usuarios.db
+usuarios.db-journal
+
+# Editores
+.vscode/
+.idea/
+
+# Pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
